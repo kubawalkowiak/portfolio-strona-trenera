@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trener Personalny - Jan Kowalski</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="hero">
+  <div class="hero-content">
+    <h1>Jan Kowalski</h1>
+    <p>Trener personalny & diet coach</p>
+    <a href="#kontakt" class="btn">Skontaktuj się</a>
+  </div>
+</header>
+<nav>
+  <ul>
+    <li><a href="#oferta">Oferta</a></li>
+    <li><a href="#cennik">Cennik</a></li>
+    <li><a href="#opinie">Opinie</a></li>
+    <li><a href="#kontakt">Kontakt</a></li>
+  </ul>
+</nav>
+<main>
+  <section id="oferta">
+    <h2>Oferta</h2>
+    <div class="cards">
+      <div class="card"><h3>Trening indywidualny</h3><p>1‑na‑1 na siłowni lub online</p></div>
+      <div class="card"><h3>Plan żywieniowy</h3><p>Dieta dopasowana do Twojego celu</p></div>
+      <div class="card"><h3>Trening grupowy</h3><p>Motywująca sesja w grupie</p></div>
+    </div>
+  </section>
+  <section id="cennik">
+    <h2>Cennik</h2>
+    <ul>
+      <li>Trening indywidualny – 150 zł / sesja</li>
+      <li>Plan żywieniowy – 200 zł / 4 tyg.</li>
+      <li>Trening grupowy – 50 zł / sesja</li>
+    </ul>
+  </section>
+  <section id="opinie">
+    <h2>Opinie</h2>
+    <blockquote>„Zbudowałem formę swojego życia dzięki Janowi!” – Marta</blockquote>
+    <blockquote>„Profesjonalizm, motywacja i ciągły kontakt.” – Piotr</blockquote>
+  </section>
+  <section id="kontakt">
+    <h2>Kontakt</h2>
+    <form id="contactForm">
+      <label for="name">Imię:</label><input type="text" id="name" name="name" required>
+      <label for="email">Email:</label><input type="email" id="email" name="email" required>
+      <label for="message">Wiadomość:</label><textarea id="message" name="message" rows="4" required></textarea>
+      <button type="submit">Wyślij</button>
+    </form>
+    <div id="formMessage"></div>
+  </section>
+</main>
+<footer>
+  <p>Jan Kowalski © 2025 | kontakt@twojadomena.pl</p>
+</footer>
+<script src="form.js"></script>
+</body>
+</html>
+
